@@ -8,8 +8,11 @@ Read the instructions on how to get setup over at [Figment Learn](https://learn.
 Learn more about [Figment](https://figment.io/)
 
 gh repo clone abraham-yusuf/solana-pathway
+
 cd solana-pathway
+
 yarn
+
 yarn start
 
 <img width="1446" alt="Screen Shot 2021-06-15 at 5 43 00 PM" src="https://user-images.githubusercontent.com/206753/122127424-240c3100-ce01-11eb-83db-4fc99c19406f.png">
