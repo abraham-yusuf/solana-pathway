@@ -17,4 +17,10 @@ cp .env.example .env.local  //let's edit your API Key datahub in .env.local
 
 yarn start
 
+
+if you following step 6-7, you'll need update file in ./src/components/Call.jsx 
+find the line of codes : const PAYER_SECRET_KEY= null, to const PAYER_SECRET_KEY=[array file secret here : 2.222xxxxx] , you can find it in : cat ~/.config/solana/id.json copy and paste it
+
+edit one more line code in : const PROGRAM_SECRET_KEY= null, (edit to) const PROGRAM_SECRET_KEY=[program secret key here : 2xx.xx.xx] , find in .dist/program/helloworld-keypair.json
+
 <img width="1446" alt="Screen Shot 2021-06-15 at 5 43 00 PM" src="https://user-images.githubusercontent.com/206753/122127424-240c3100-ce01-11eb-83db-4fc99c19406f.png">
