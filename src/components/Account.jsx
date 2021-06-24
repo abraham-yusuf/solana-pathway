@@ -8,10 +8,13 @@ const Account = ({ keypair, setKeypair }) => {
   const generateKeypair = () => {
     // Generate a Keypair
     // Save it to <App />'s state
+  const keypair = Keypair.generate();
+  console.log(keypair);
+  setKeypair(keypair);
   }
 
   // parse the address (as a string) from the keypair object
-  const publicKeyStr = "TBD";
+  const publicKeyStr = keypair && keypair.publicKey.toString();
 
   return (
     <Col>
